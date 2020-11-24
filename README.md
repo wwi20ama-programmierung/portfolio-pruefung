@@ -45,7 +45,7 @@ Machen Sie sich mit der Funktionsweise des Python-Programms vertraut. "Übersetz
 ### Funktionalität
 Es sind mehrere Räume mit aufsteigender Schwierigkeit in Form von Textdateien vorgegeben. Ihr Java-Programm sollte möglichst viele dieser Test-Räume lösen können.
 
-Genauer wird in der in Java vorgegebenen Main-Methode ein Roboter, ein Raum und ein Logger erzeugt. Dann wird in einer Schleife der Roboter so lange nach seinem jeweils nächsten Schritt gefragt, bis er über sein integriertes `done`-Flag signalisiert, dass er fertig ist.
+Genauer wird in der in Java vorgegebenen Main-Methode ein Roboter, ein Raum und ein Logger erzeugt. Dann wird in einer Schleife der Roboter so lange nach seinem jeweils nächsten Schritt gefragt, bis er über seine `isDone()`-Methode signalisiert, dass er fertig ist.
 
 Der Roboter soll in jedem Schritt die zu fahrende Differenz in x- und y-Richtung liefern, wobei es immer nur erlaubt ist, einen Schritt in jede Richtung zu machen.
 Es wird erwartet, dass durch den Roboter ein Weg angegeben wird (und am Ende im Logger steht), der den gesamten Raum säubert und der auch mit der vorhandenen Akku-Kapazität gefahren werden kann (siehe Python-Vorgabe).
