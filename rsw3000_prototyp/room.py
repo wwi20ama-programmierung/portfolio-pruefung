@@ -52,7 +52,7 @@ class Room:
             self.robotPos = self.newRobotPos(dx,dy)
             self.logger.moveRobot(self.robotPos)
         if self.robotPos == self.stationPos:
-            self.robotBattery = 10
+            self.robotBattery = 100
         else:
             self.robotBattery -= 1
         if self.tiles[self.roboty()][self.robotx()] == 'D':
